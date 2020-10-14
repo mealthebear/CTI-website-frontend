@@ -6,6 +6,7 @@ import HowToUse from './pages/HowToUse'
 import Contributors from './pages/Contributors'
 import Landing from './pages/Landing'
 import Projects from './pages/Projects'
+import TagGenerator from './pages/TagGenerator'
 
 
 const App = () => {
@@ -18,6 +19,7 @@ const App = () => {
         <Route exact path='/landing' component={Landing}/>
         <Route exact path='/contributors/:affiliation' component={Contributors} />
         <Route exact path='/projects' component={Projects}/>
+        <Route exact path='/tags' component={TagGenerator}/>
       </Switch>
     </>
   )
