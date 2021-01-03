@@ -23,7 +23,7 @@ const TrendingTopicsSection = () => {
     }
 
     const TrendingTopicChip = (props) => {
-        return <span><a href={props.href}><Chip style={{ margin: 5 }} label={props.children} /></a></span>
+        return <span><a href={props.href}><Chip style={{ cursor: "pointer", margin: 5 }} label={props.children} /></a></span>
     }
 
     return (
